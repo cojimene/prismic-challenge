@@ -1,0 +1,12 @@
+<div id="<%= dom_id simple_post %>">
+  <h1><%= simple_post.title %></h1>
+
+  <p>
+    <%= image_tag simple_post.image_url %>
+  </p>
+
+  <p>
+    <%# Yes, this is unsafe, but I'm assuming that the source is trusted %>
+    <%= simple_post.content.html_safe %>
+  </p>
+</div>

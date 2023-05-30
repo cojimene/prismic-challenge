@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Simple posts</h1>
+
+<div id="simple_posts">
+  <ul>
+    <% @simple_posts.each do |simple_post| %>
+      <li><%= link_to simple_post.title, simple_post %></li>
+    <% end %>
+  </ul>
+</div>
