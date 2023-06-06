@@ -20,6 +20,6 @@ module Prismic
     # config.eager_load_paths << Rails.root.join("extras")
 
     # This is only to use ngrok, remove or comment this line after finish testing
-    # config.hosts << '1839-186-169-130-122.ngrok-free.app'
+    config.hosts << 'd1ac-186-171-21-99.ngrok-free.app'
   end
 end
